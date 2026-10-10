@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Java / Spring Boot
+**/target/
+*.class
+*.log
+
+# React / Node.js
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Database exports and backups
+*.dmp
+*.dump
+*.bak
+
+
+# Raw football datasets
+understat_players_aggregated_2014_2024.csv
+understat_players_aggregated_2025_latest.csv
